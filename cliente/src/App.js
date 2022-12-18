@@ -15,7 +15,6 @@ import Logout from "./components/Logout/Logout";
 
 const App = () => {
   const { isAuthenticated } = useAuth0();
-  
 
   isAuthenticated ? (
     <>
